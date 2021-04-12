@@ -30,9 +30,11 @@ Queensland University of Technology. GPO Box 2434. Brisbane, QLD 4001. Australia
 The dataset is part of the R package ``reef''.
 
 library('devtools')
+
 devtools::install_github("EdgarSantos-Fernandez/reef")
 
 library('reef')
+
 data('reef')
 
 # Description of the reef dataset
