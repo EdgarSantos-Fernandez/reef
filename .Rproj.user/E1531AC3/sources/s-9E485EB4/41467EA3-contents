@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+Package: reef
+Type: Package
+Title: Reef dataset datasets
+Version: 0.0.1
+Author: Edgar Santos-Fernandez
+Maintainer: Edgar Santos-Fernandez <edgar.santosfdez@gmail.com>
+Description: This reef dataset contains classifcation of underwater images from the Great Barrier Reef. It was produced using Amazon Mechanical Turk. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    SSN
+Depends: 
+    R (>= 3.5.0)
+RoxygenNote: 7.1.1
+=======
+Package: reef
+Type: Package
+Title: Reef dataset datasets
+Version: 0.0.1
+Author: Edgar Santos-Fernandez
+Maintainer: Edgar Santos-Fernandez <edgar.santosfdez@gmail.com>
+Description: This reef dataset contains classifcation of underwater images from the Great Barrier Reef. It was produced using Amazon Mechanical Turk. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    SSN
+Depends: 
+    R (>= 3.5.0)
+RoxygenNote: 7.1.1
+>>>>>>> c1f515a31abcdbf8b5d5be2becc5295886b8e096
