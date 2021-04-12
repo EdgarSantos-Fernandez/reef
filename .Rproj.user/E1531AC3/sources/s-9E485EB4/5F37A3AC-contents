@@ -1,27 +1,62 @@
-<<<<<<< HEAD
 #' @title reef dataset
-#' @description This data set contains manual classification data from underwater images. 
+#' @description This data set contains manual classification data from underwater images.
 #' @format A data frame.
 #' @source
 #' @return A data frame
-#' @importFrom 
+#' @importFrom
 #' @export
 #' @author Edgar Santos-Fernandez
 #' @examples
 #' data('reef')
 #' summary(reef)
 
-=======
+
 #' @title reef dataset
-#' @description This data set contains manual classification data from underwater images. 
+#' @description This data set contains manual classification data from underwater images.
 #' @format A data frame.
 #' @source
 #' @return A data frame
-#' @importFrom 
+#' @importFrom
 #' @export
 #' @author Edgar Santos-Fernandez
 #' @examples
 #' data('reef')
 #' summary(reef)
 
->>>>>>> c1f515a31abcdbf8b5d5be2becc5295886b8e096
+
+
+
+r <- readRDS('reef.RDS')
+
+c("MediaID", "WorkerID", "AssignmentID", "answer_given", "answer_actual",
+  "x", "y", "dataset", "hardTP", "hardTN", "hardFP", "hardFN",
+  "correct", "camera_id", "point", "class", "class_true", "output",
+  "subject", "point_id", "MediaID_point", "consensus", "hind",
+  "nhind", "eve", "correct_con", "hardTP_con", "hardTN_con", "hardFP_con",
+  "hardFN_con", "eve_ind", "method", "annot", "id", "media_id",
+  "Camera", "group_id", "survey", "class_exper", "class_exper2",
+  "consensus_exp", "consensus_exp2", "corr_exp_con", "corr_exp_con2",
+  "TP_exp_con", "TN_exp_con", "FP_exp_con", "FN_exp_con", "TP_exp_con2",
+  "TN_exp_con2", "FP_exp_con2", "FN_exp_con2", "cons_cat")
+
+
+r <- dplyr::filter(r, dataset == 'mturk' )
+
+r$media <- r$MediaID
+r$annotator <- r$annot
+r$assignment <- r$AssignmentID
+
+
+r <- r %>% dplyr::select(c("media", 'annotator','assignment',"point_id",'answer_given', 'answer_actual',
+  'x', 'y', 'correct', "camera_id", "class", "class_true",
+  "Camera"))
+
+# save(r, file="data/reef.RData")
+
+
+
+
+
+
+
+
