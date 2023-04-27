@@ -4,12 +4,11 @@ Title: Reef dataset
 Version: 0.0.1
 Author: Edgar Santos-Fernandez
 Maintainer: Edgar Santos-Fernandez <edgar.santosfdez@gmail.com>
-Description: This reef dataset contains classifications of underwater images from the Great Barrier Reef. It was produced using Amazon Mechanical Turk. 
+Description: The reef R package comprises a dataset that includes classifications of underwater images captured from the Great Barrier Reef. These classifications were generated through the collective efforts of citizen scientists using Amazon Mechanical Turk. This package allows users to access and explore the data to gain insights into the image classification process and the resulting ecological findings. This dataset was used in the case study featured in the manuscript titled "Increasing trust in new data sources: crowdsourcing image classification for ecology.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports:
-    SSN
 Depends: 
     R (>= 3.5.0)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1

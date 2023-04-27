@@ -1,6 +1,6 @@
 #' reef data set
 #'
-#' Data associated with the article: Complex image classification via crowdsourcing for conservation: a viable solution?
+#' Data associated with the article: ``Increasing trust in new data sources: crowdsourcing image classification for ecology''
 #'
 #' @docType data
 #'
@@ -9,7 +9,7 @@
 #' @format A dataframe
 #'
 #' @keywords datasets
-#'
+#' @author Edgar Santos-Fernandez, PhD
 #'
 #' @source \href{https://github.com/EdgarSantos-Fernandez/reef}
 #'
