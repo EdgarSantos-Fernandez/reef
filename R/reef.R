@@ -1,6 +1,6 @@
 #' reef data set
 #'
-#' Data associated with the article: ``Increasing trust in new data sources: crowdsourcing image classification for ecology''
+#' Data associated with the article: Increasing trust in new data sources: crowdsourcing image classification for ecology.
 #'
 #' @docType data
 #'
